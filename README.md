@@ -12,3 +12,5 @@ The specification of the Model Function Calling Standard
 - 多轮调用支持
 - fc流式输出执行
 - fc分2种类型，一种交互模式，一种执行模式
+
+##[具体参考](./desc.md)
