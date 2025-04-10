@@ -2,7 +2,7 @@
 
 * [Home](/)
 * [Discord](https://discord.gg/9eEgMVqg)
-* [Documentation](default.md)
+* [Documentation](topics/default.md)
 * Review Key Topics
   * [MFCS and LLMs](topics/default.md)
   * [MFCS and Tools](topics/default.md)
