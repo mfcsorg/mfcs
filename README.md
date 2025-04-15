@@ -4,7 +4,7 @@ MFCS (Model Function Calling Standard) is an open-source standard protocol desig
 - **Compatibility Issues**: Different LLMs have inconsistent Function Calling interfaces, requiring repeated adaptation when switching models.  
 - **Feature Deficiency**: Some LLMs (e.g., DeepSeek R1) do not support Function Calling.  
 - **Development Efficiency**: Business development requires adjusting Function Calling logic for different models, increasing maintenance costs.  
-- **Scalability Limitations**: Existing Function Calling solutions have constraints in tool quantity, invocation flexibility, monitoring capabilities, etc.  
+- **Scalability Limitations**: Existing Function Calling solutions have constraints in tool quantity, invocation flexibility, monitoring capabilities, etc.   
 
 ## Overall Architecture  
 ![Local Image](./images/architecture.png)  
