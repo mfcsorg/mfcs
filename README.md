@@ -2,7 +2,7 @@
 MFCS (Model Function Calling Standard) is an open-source standard protocol designed to facilitate interaction between LLMs (Large Language Models) and external tools. It defines how to invoke external tools and process their returned results. The protocol primarily addresses the following issues:  
 
 - **Compatibility Issues**: Different LLMs have inconsistent Function Calling interfaces, requiring repeated adaptation when switching models.  
-- **Feature Deficiency**: Some LLMs (e.g., DeepSeek R1, ChatGPT O3) do not support Function Calling.  
+- **Feature Deficiency**: Some LLMs (e.g., DeepSeek R1) do not support Function Calling.  
 - **Development Efficiency**: Business development requires adjusting Function Calling logic for different models, increasing maintenance costs.  
 - **Scalability Limitations**: Existing Function Calling solutions have constraints in tool quantity, invocation flexibility, monitoring capabilities, etc.  
 
@@ -17,8 +17,8 @@ This diagram illustrates a system architecture centered around a Large Language 
 
 ### Detailed Component Explanations  
 
-#### 1. **LLM (Large Language Model)**  
-The LLM serves as the intelligent core of the system, such as GPT-4, ERNIE Bot, etc. Trained on vast text data, it can generate natural language text, understand user intent, and more.  
+#### 1. **Model**  
+The large model serves as the intelligent core of the entire system, such as GPT-4, Deepseek, Qwen, and others. By learning from vast amounts of text data, it acquires capabilities like generating natural language text and understanding user intent. 
 
 #### 2. **Memory (Memory Module)**  
 The memory module is critical for the LLM. It stores contextual information from conversations, such as previous user queries and model responses. This allows the LLM to reference past interactions when processing new inputs, ensuring more coherent and context-aware replies.  
