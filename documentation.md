@@ -1,1 +1,0 @@
-# Model Function Calling Standard
