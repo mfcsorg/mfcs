@@ -6,3 +6,4 @@
 * SDKs
   * [Python SDK](https://github.com/mfcsorg/mfcs-python)
   * [Typescript SDK](https://github.com/mfcsorg/mfcs-js)
+* [Benchmark](topics/benchmark.md)
