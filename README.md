@@ -12,8 +12,8 @@ MFCS (Model Function Calling Standard) is an open-source standard protocol desig
 MFCS ("Model Function Calling Standard")—here’s a more precise understanding of the architecture diagram:  
 
 ### Architecture Overview  
-
-This diagram illustrates a system architecture centered around a Large Language Model (LLM), highlighting its interactions with the memory module, Model Function Calling Standard (MFCS), and various tools.  
+ 
+This diagram illustrates a system architecture centered around a large language model (LLM), highlighting the interaction relationships between the LLM and memory modules, model function calling standards (MFCS), as well as various tools and agents.
 
 ### Detailed Component Explanations  
 
@@ -24,12 +24,17 @@ The large model serves as the intelligent core of the entire system, such as GPT
 The memory module is critical for the LLM. It stores contextual information from conversations, such as previous user queries and model responses. This allows the LLM to reference past interactions when processing new inputs, ensuring more coherent and context-aware replies.  
 
 #### 3. **MFCS (Model Function Calling Standard)**  
-The Model Function Calling Standard is a protocol that coordinates interactions between the LLM and external tools. It defines how the LLM invokes tool functions and processes their results. Through MFCS, the LLM can leverage external tools to enhance its capabilities.  
+Model Function Calling Standard (MFCS) is a specification designed to coordinate interactions between LLMs and various tools. It defines how an LLM invokes functions from external tools and processes the returned results. Through MFCS, LLMs can leverage external tools and agent capabilities to enhance their own functionality.
 
 #### 4. **Tools**  
 - **MCP**: A Model Context Protocol introduced by Claude for third-party tool integration.  
 - **OpenAPI**: Typically refers to open Application Programming Interfaces that enable interaction and data sharing between software systems. In this architecture, the LLM can use MFCS to call OpenAPIs for external services, such as fetching weather data or stock information.  
 - **Python**: As a powerful programming language, Python offers extensive libraries and frameworks. Here, the LLM can use MFCS to execute Python scripts for complex tasks like data analysis or machine learning model training.  
+
+#### 5. Agents:
+- **A2A (Agent-to-Agent)**: An open-source protocol designed to enable seamless collaboration between AI agents developed across different frameworks and vendors. MFCS also supports A2A protocol invocation.
+
+- **Coze**: A general-purpose agent platform where agents can provide API services. MFCS can invoke agents through open APIs. Note that Coze is just one example - MFCS is a universal standard compatible with any agent platform that offers open APIs.
 
 ### Interaction Flow  
 
